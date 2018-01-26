@@ -1,8 +1,7 @@
 name: expiresOn
 version: "1.0"
 description: >
-  A modifier that checks for an expiration date, and hides items that have an expiration date
-  that is not in the future.
+  A modifier that checks for an expiration date, and outputs items that don't have one, or that have one which is in the future.
 url: https://github.com/beckysoll/statamic-expires-on
 developer: Becky Soll with much help from Erin Dalzell
 developer_url: www.beckysoll.com
