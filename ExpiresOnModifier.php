@@ -19,7 +19,7 @@ class ExpiresOnModifier extends Modifier
 
         return collect($value)->filter(function ($value) use ($expiration) {
           return !(isset($value[$expiration])) || carbon($value[$expiration])->isFuture();
-        })->toArray();
+        })->all();
 
     }
 }
