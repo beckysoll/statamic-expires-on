@@ -3,7 +3,7 @@ A Statamic 2.0 modifier addon that checks for an expiration date, and hides item
 
 ## Usage
 
-### Assuming Today is 2018-1-26
+### Assuming Today is `2018-1-26`
 
 ### YAML
 ```
