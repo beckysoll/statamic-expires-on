@@ -1,5 +1,5 @@
 # Statamic Expires On
-A Statamic 2.0 modifier addon that checks for an expiration date, and hides items that have an expiration date that is not in the future.
+A Statamic 2.0 modifier addon that checks for an expiration date, and outputs items that don't have one, or that have one which is in the future.
 
 ## Usage
 
