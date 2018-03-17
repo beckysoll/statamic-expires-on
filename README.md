@@ -1,5 +1,5 @@
 # Statamic Expires On
-A Statamic 2.0 modifier for tag pairs that cannot be [filtered with conditions](https://docs.statamic.com/conditions) (aka not a collection or taxonomy) that checks for an expiration date, outputs items in the loop that either don't have one, or have one which is in the future.
+A Statamic 2.0 modifier for tag pairs that cannot be [filtered with conditions](https://docs.statamic.com/conditions) (aka not a collection or taxonomy). The expiration date field is specified as a parameter (`expiration_date` in the example below), and it outputs items in the loop that either don't have one, or have one which is in the future.
 
 ## Usage
 
