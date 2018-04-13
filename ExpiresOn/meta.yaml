@@ -1,0 +1,7 @@
+name: ExpiresOn
+version: "1.0"
+description: >
+  A Statamic 2.0 modifier for tag pairs that cannot be filtered with conditions (aka not a collection or taxonomy). The field holding the expiration date is specified as a parameter (expiration_date in the example below), and it returns items that either don't have one, or have one which is in the future.
+url: https://github.com/beckysoll/statamic-expires-on
+developer: Becky Soll with much help from Erin Dalzell
+developer_url: www.beckysoll.com

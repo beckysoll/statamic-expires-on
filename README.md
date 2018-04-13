@@ -1,7 +1,7 @@
 # Statamic Expires On
 A Statamic 2.0 modifier for tag pairs that cannot be [filtered with conditions](https://docs.statamic.com/conditions) (aka not a collection or taxonomy). The expiration date field is specified as a parameter (`expiration_date` in the example below), and it returns items that either don't have one, or have one which is in the future.
 
-Copy all files into `/site/addons/ExpiresOn`
+Copy `ExpiresOn` folder into `/site/addons/`.
 
 ## Usage
 
